@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.10.1\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2024-05-13 15:27+0200\n"
-"PO-Revision-Date: 2024-05-15 18:48+0800\n"
+"PO-Revision-Date: 2024-05-15 19:57+0800\n"
 "Last-Translator: Gina Häußge <gina@octoprint.org>\n"
 "Language-Team: awkee xiaoyu0720@gmail.com\n"
 "Language: zh_CN\n"
@@ -543,7 +543,7 @@ msgstr "配置通道"
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorGeneral.jinja2:3
 #: src/octoprint/templates/snippets/settings/printerprofiles/profiles.jinja2:4 src/octoprint/templates/tabs/timelapse.jinja2:213
 msgid "Name"
-msgstr "姓名"
+msgstr "名称"
 
 #: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:7
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:140
@@ -565,7 +565,7 @@ msgstr "允许授予应用程序访问权限"
 
 #: src/octoprint/plugins/appkeys/__init__.py:147 src/octoprint/plugins/appkeys/__init__.py:148
 msgid "Application Keys"
-msgstr "应用键"
+msgstr "应用Key"
 
 #: src/octoprint/plugins/appkeys/__init__.py:261 src/octoprint/plugins/appkeys/static/js/appkeys.js:145
 #, python-format
@@ -1584,7 +1584,7 @@ msgstr ""
 #: src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:66
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditor.jinja2:9 src/octoprint/templates/tabs/control.jinja2:147
 msgid "General"
-msgstr "一般的"
+msgstr "通用配置"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:8
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditor.jinja2:10
@@ -3128,7 +3128,7 @@ msgstr "通知缓存 TTL"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:438
 msgid "pip configuration"
-msgstr "点配置"
+msgstr "pip配置"
 
 #: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:440
 msgid "Additional arguments for the pip command. You should normally not have to change this."
@@ -3146,7 +3146,7 @@ msgstr "通过 <code>pip install</code> 强制使用 <code>--user</code> 标志"
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:206 src/octoprint/templates/dialogs/settings.jinja2:55
 #: src/octoprint/templates/dialogs/temperature.jinja2:32
 msgid "Save"
-msgstr "节省"
+msgstr "保存"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:148
 msgid "Allows to check for software updates"
@@ -3178,11 +3178,11 @@ msgstr "Python"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:1200 src/octoprint/plugins/softwareupdate/__init__.py:2369
 msgid "pip"
-msgstr "点"
+msgstr "pip"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:1207
 msgid "setuptools"
-msgstr "设置工具"
+msgstr "setuptools"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:1490 src/octoprint/plugins/softwareupdate/__init__.py:1507
 #: src/octoprint/plugins/softwareupdate/templates/softwareupdate_wizard_settings.jinja2:1
@@ -3200,7 +3200,7 @@ msgstr "更新？"
 #: src/octoprint/static/js/app/viewmodels/appearance.js:116 src/octoprint/templates/dialogs/about/about.jinja2:1
 #: src/octoprint/templates/footer.jinja2:3
 msgid "OctoPrint"
-msgstr "奥克托打印"
+msgstr "OctoPrint"
 
 #: src/octoprint/plugins/softwareupdate/__init__.py:2568
 msgid ""
@@ -3218,7 +3218,7 @@ msgstr "Github 提交"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:315
 msgid "Local checkout"
-msgstr "本地结帐"
+msgstr "本地检出"
 
 #: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:398
 #, python-format
@@ -4060,7 +4060,7 @@ msgstr "如果启用，则额外的串行端口 <code>VIRTUAL</code> 将可用�
 
 #: src/octoprint/server/views.py:982 src/octoprint/templates/dialogs/settings/serialconnection.jinja2:16
 msgid "Connection"
-msgstr "联系"
+msgstr "连接"
 
 #: src/octoprint/server/views.py:993 src/octoprint/templates/sidebar/state.jinja2:1
 msgid "State"
@@ -5681,7 +5681,7 @@ msgstr "确认"
 
 #: src/octoprint/templates/dialogs/about.jinja2:4 src/octoprint/templates/dialogs/settings.jinja2:51
 msgid "About OctoPrint"
-msgstr "关于奥克托打印"
+msgstr "关于OctoPrint"
 
 #: src/octoprint/templates/dialogs/files.jinja2:4
 msgid "Create Folder"
@@ -7032,7 +7032,7 @@ msgstr "错误处理"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:553
 msgid "What to do on a firmware error (<code>Error:</code> or <code>!!</code>)"
-msgstr "出现固件错误时该怎么办（<code>Error:</code> 或 <code>!!</code>）"
+msgstr "出现固件错误时该怎么办(<code>Error:</code> 或 <code>!!</code>)"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:556
 msgid "Disconnect from the printer"
@@ -7047,8 +7047,8 @@ msgid ""
 "Please note that if you choose this, OctoPrint will still disconnect from the printer in case of <em>fatal</em> errors reported by your "
 "firmware (e.g. <code>kill() called</code>, <code>fatal:</code>)."
 msgstr ""
-"请注意，如果您选择此选项，在固件报告<em>致命</em>错误时，OctoPrint 仍会与打印机断开连接（例如 <code>kill() 调用</code>、<code>致命： </代"
-"码>）。"
+"请注意，如果您选择此选项，在固件报告<em>fatal</em>错误时，OctoPrint 仍会与打印机断开连接(例如 <code>kill() 调用</code>、<code>fatal： </"
+"code>)。"
 
 #: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:564
 msgid ""
@@ -7229,7 +7229,8 @@ msgstr ""
 "\n"
 "            请注意，OctoPrint 仅嵌入网络摄像头流并访问快照 URL。它实际上并不运行自己的网络摄像头服务器\n"
 "            或直接与您的相机互动。因此，它无法对其施加访问限制或为您启用/禁用流。这\n"
-"            每个可以连接到您的 OctoPrint 实例的人都可以访问流，即使未经身份验证。"
+"            每个可以连接到您的 OctoPrint 实例的人都可以访问流，即使未经身份验证。\n"
+"        "
 
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:11
 #, python-format
@@ -7243,7 +7244,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            一如既往：不要将您的 OctoPrint 实例直接暴露在公共互联网或任何其他敌对网络上！"
+"            一如既往：不要将您的 OctoPrint 实例直接暴露在公共互联网或任何其他敌对网络上！\n"
+"        "
 
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:20
 msgid "Webcam Streaming"
@@ -7310,7 +7312,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          请注意，更改密码后，您将<strong>立即注销</strong>并要求重新登录。"
+"          请注意，更改密码后，您将<strong>立即注销</strong>并要求重新登录。\n"
+"        "
 
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:34 src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2:159
 msgid "Current API Key"
@@ -7357,7 +7360,8 @@ msgstr ""
 "            即使使用 OctoPrint，您也应该<strong class=\"text-error\">永远不要离开\n"
 "            您的打印机在无人值守的情况下运行</strong>。我们的消费类打印机中的电子设备可以并且\n"
 "            有时不幸的是会着火，所以留下来或让其他人留在足够近的地方进行身体干预\n"
-"            如果发生灾难性故障。"
+"            如果发生灾难性故障。\n"
+"        "
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:22 src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:40
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:58
@@ -7379,7 +7383,8 @@ msgstr ""
 "您还应该<strong class=\"text-error\">切勿在公共互联网上公开 OctoPrint</strong>，\n"
 "            例如通过端口转发。它可以而且将会被发现，而且坏人\n"
 "            <em>会</em>尝试滥用它。不要让自己面临风险，请使用安全的方式远程访问您的实例，例如\n"
-"            可用的<strong><a href=\"%(url)s\" target=\"_blank\" rel=\"noopener noreferrer\">远程访问插件之一！</a></strong>"
+"            可用的<strong><a href=\"%(url)s\" target=\"_blank\" rel=\"noopener noreferrer\">远程访问插件之一！</a></strong>\n"
+"        "
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:45
 msgid "Support OctoPrint's ongoing development!"
@@ -7397,10 +7402,11 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"只有像您这样的人持续提供财政支持，OctoPrint 的工作才有可能实现！\n"
+"            只有像您这样的人持续提供财政支持，OctoPrint 的工作才有可能实现！\n"
 "            如果您喜欢 OctoPrint，请<strong><a href=\"%(url)s\" target=\"_blank\">点击此处了解如何帮助其筹集资金</a></strong> -\n"
 "            一点一滴都有帮助！<br>\n"
-"            <strong>谢谢！</strong>"
+"            <strong>谢谢！</strong>\n"
+"        "
 
 #: src/octoprint/templates/dialogs/wizard/firstrun_end.jinja2:63
 msgid ""
@@ -7434,7 +7440,7 @@ msgstr ""
 
 #: src/octoprint/templates/navbar/login.jinja2:20
 msgid "Logout"
-msgstr "登出"
+msgstr "退出"
 
 #: src/octoprint/templates/navbar/offlineindicator.jinja2:1
 msgid "There is no connection to the internet"
@@ -7481,7 +7487,8 @@ msgstr ""
 "                    现在有一个新版本的服务器处于活动状态，请重新加载\n"
 "                    需要用户界面。这不会中断\n"
 "                    您可能正在进行的任何打印作业。请重新加载\n"
-"                    现在点击下面的按钮即可进入网络界面。"
+"                    现在点击下面的按钮即可进入网络界面。\n"
+"                "
 
 #: src/octoprint/templates/sidebar/connection.jinja2:1
 #, python-format
@@ -7525,7 +7532,7 @@ msgstr "在 SD 卡上"
 #: src/octoprint/templates/sidebar/files.jinja2:21 src/octoprint/templates/sidebar/files.jinja2:36
 #: src/octoprint/templates/sidebar/files.jinja2:50
 msgid "Internal"
-msgstr "内部的"
+msgstr "内部"
 
 #: src/octoprint/templates/sidebar/files.jinja2:22 src/octoprint/templates/sidebar/files.jinja2:37
 #: src/octoprint/templates/sidebar/files.jinja2:51
@@ -7546,11 +7553,11 @@ msgstr "加载并打印"
 
 #: src/octoprint/templates/sidebar/files.jinja2:61
 msgid "Free"
-msgstr "自由的"
+msgstr "Free"
 
 #: src/octoprint/templates/sidebar/files.jinja2:61
 msgid "Total"
-msgstr "全部的"
+msgstr "Total"
 
 #: src/octoprint/templates/sidebar/files.jinja2:66
 msgid "Create folder..."
@@ -7819,15 +7826,15 @@ msgstr "反转控制"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorAxes.jinja2:20
 msgid "Y"
-msgstr "和"
+msgstr "Y"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorAxes.jinja2:32
 msgid "Z"
-msgstr "和"
+msgstr "Z"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorAxes.jinja2:44
 msgid "E"
-msgstr "和"
+msgstr "E"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorAxes.jinja2:54
 msgid "This information is used for manual control via the \"Control\" tab."
@@ -7938,7 +7945,7 @@ msgstr "请指定挤出机相对于第一个喷嘴 T0 的喷嘴偏移<strong>如
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:37
 #: src/octoprint/templates/tabs/temperature.jinja2:41
 msgid "Offset"
-msgstr "抵消"
+msgstr "偏移量"
 
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditorExtruder.jinja2:55
 msgid "Default extrusion length"
@@ -8005,7 +8012,8 @@ msgstr ""
 "                定义检查间隔、要检查的主机和端口。如果您不知道在这里设置什么，\n"
 "                默认值（使用 Cloudflare 的 DNS 服务器）应该有效。如果您对使用有疑虑\n"
 "                定义您信任且具有较高安全性的不同在线服务器的 IP 和端口\n"
-"                可用性。"
+"                可用性。\n"
+"            "
 
 #: src/octoprint/templates/snippets/settings/server/serverOnlineCheck.jinja2:22
 msgid ""
@@ -8020,7 +8028,8 @@ msgstr ""
 "                如果您还想检查名称解析是否有效（强烈推荐），请定义主机名\n"
 "                检查名称解析。如果你不知道在这里设置什么，默认值\n"
 "                （OctoPrint 的域名）应该可以工作。如果您不想执行定期分辨率检查\n"
-"                在进行一般连接检查时，将该字段留空。"
+"                在进行一般连接检查时，将该字段留空。\n"
+"            "
 
 #: src/octoprint/templates/snippets/settings/server/serverOnlineCheckDescription.jinja2:1
 msgid ""
@@ -8116,7 +8125,7 @@ msgstr "黑名单网址"
 
 #: src/octoprint/templates/snippets/settings/server/serverPluginTimings.jinja2:4
 msgid "Enable <code>plugintimings.log</code>"
-msgstr "启用plugintimings.log"
+msgstr "启用<code>plugintimings.log</code>"
 
 #: src/octoprint/templates/snippets/settings/server/serverPluginTimings.jinja2:5
 msgid ""
@@ -8144,7 +8153,8 @@ msgstr ""
 "\n"
 "            <p>\n"
 "                您可以在其插件设置中更改此网络摄像头的配置（如果有）。\n"
-"            </p>"
+"            </p>\n"
+"        "
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegBitrate.jinja2:1
 msgid "Bitrate to use for encoding the timelapse video"
@@ -8184,7 +8194,8 @@ msgstr ""
 "            <code>{input}</code>（输入文件），<code>{videocodec}</code>（配置要使用的视频编解码器），\n"
 "            <code>{threads}</code>（配置要使用的线程数），<code>{bitrate}</code>（配置要使用的比特率），\n"
 "            <code>{containerformat}</code>（要使用的配置容器格式），<code>{filters}</code>（用于翻转/旋转和水印的过滤器链），\n"
-"            <code>{output}</code>（输出文件）。"
+"            <code>{output}</code>（输出文件）。\n"
+"        "
 
 #: src/octoprint/templates/snippets/settings/webcam/ffmpegPath.jinja2:1
 msgid "Full path to the FFMPEG binary"
@@ -8240,7 +8251,8 @@ msgstr ""
 "            </p>\n"
 "            <p>\n"
 "                您可以在其插件设置中更改此网络摄像头的配置（如果有）。\n"
-"            </p>"
+"            </p>\n"
+"        "
 
 #: src/octoprint/templates/snippets/settings/webcam/timelapseEnabled.jinja2:4
 msgid "Enable timelapse support"
@@ -8292,7 +8304,7 @@ msgstr "主页 Z"
 
 #: src/octoprint/templates/tabs/control.jinja2:50
 msgid "Stepsize"
-msgstr "一步的大小"
+msgstr "步大小"
 
 #: src/octoprint/templates/tabs/control.jinja2:58
 msgid "Hint: If you move your mouse over the picture, you enter keyboard control mode."
@@ -8308,23 +8320,23 @@ msgstr "向左移动"
 
 #: src/octoprint/templates/tabs/control.jinja2:71 src/octoprint/templates/tabs/control.jinja2:85
 msgid "Home"
-msgstr "家"
+msgstr "Home"
 
 #: src/octoprint/templates/tabs/control.jinja2:72
 msgid "Move right"
-msgstr "向右移"
+msgstr "向右"
 
 #: src/octoprint/templates/tabs/control.jinja2:75
 msgid "Move back"
-msgstr "向后移动"
+msgstr "向后"
 
 #: src/octoprint/templates/tabs/control.jinja2:82
 msgid "Move up"
-msgstr "提升"
+msgstr "向上"
 
 #: src/octoprint/templates/tabs/control.jinja2:88
 msgid "Move down"
-msgstr "下移"
+msgstr "向下"
 
 #: src/octoprint/templates/tabs/control.jinja2:103
 msgid "Feed rate modifier:"
@@ -8343,7 +8355,7 @@ msgstr "由于通讯协议的限制，进给速度只能设置，不能从固件
 
 #: src/octoprint/templates/tabs/control.jinja2:119
 msgid "Extrude"
-msgstr "拉伸"
+msgstr "挤出"
 
 #: src/octoprint/templates/tabs/control.jinja2:120
 msgid "Retract"
@@ -8375,7 +8387,7 @@ msgstr "电机关闭"
 
 #: src/octoprint/templates/tabs/control.jinja2:150
 msgid "Fan on"
-msgstr "风扇是"
+msgstr "风扇开启"
 
 #: src/octoprint/templates/tabs/control.jinja2:151
 msgid "Fan off"
@@ -8411,7 +8423,7 @@ msgstr "微调：+1°C"
 
 #: src/octoprint/templates/tabs/temperature.jinja2:62
 msgid "Set"
-msgstr "放"
+msgstr "Set"
 
 #: src/octoprint/templates/tabs/temperature.jinja2:85
 msgid "Change Offset"
@@ -8624,7 +8636,7 @@ msgstr "未渲​​染的延时拍摄"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:214
 msgid "Frames"
-msgstr "镜框"
+msgstr "Frames"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:227
 msgid "Delete unrendered timelapse"
