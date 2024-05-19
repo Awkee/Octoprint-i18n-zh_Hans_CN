@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: OctoPrint 1.10.1\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
 "POT-Creation-Date: 2024-05-13 15:27+0200\n"
-"PO-Revision-Date: 2024-05-15 19:57+0800\n"
+"PO-Revision-Date: 2024-05-19 21:01+0800\n"
 "Last-Translator: Gina Häußge <gina@octoprint.org>\n"
 "Language-Team: awkee xiaoyu0720@gmail.com\n"
 "Language: zh_CN\n"
@@ -131,7 +131,7 @@ msgstr "如果没有此插件，您将无法再获得成就并跟踪有关 OctoP
 
 #: src/octoprint/plugins/achievements/static/js/achievements.js:56
 msgid "No prints yet"
-msgstr "还没有印刷品"
+msgstr "还没有打印"
 
 #: src/octoprint/plugins/achievements/static/js/achievements.js:58
 #, python-format
@@ -278,7 +278,7 @@ msgstr "总打印时长"
 
 #: src/octoprint/plugins/achievements/templates/achievements_about_stats.jinja2:24
 msgid "Longest print"
-msgstr "最长的印刷品"
+msgstr "最长的打印用时"
 
 #: src/octoprint/plugins/achievements/templates/achievements_settings.jinja2:1
 msgid "Achievements Settings"
@@ -4505,7 +4505,7 @@ msgstr "发送文件到 SD"
 
 #: src/octoprint/static/js/app/main.js:273
 msgid "Printing"
-msgstr "印刷"
+msgstr "正在打印中"
 
 #: src/octoprint/static/js/app/main.js:274
 msgid "Paused"
