@@ -4,7 +4,7 @@
 
 ## 翻译说明
 
-- 第一版翻译：利用 `tools/potrans.py`脚本自动使用google翻译生成，然后人工修改部分记录，最后使用`poedit`工具生成 mo 文件。
+- 第一版翻译(1.10.1)：利用 `tools/potrans.py`脚本自动使用google翻译生成，然后人工修改部分记录，最后使用`poedit`工具生成 mo 文件。
 - 第二版翻译(1.10.2): 手工通过ChatGPT实现翻译,没有想系比对过,但通过`poedit`生成mo文件使用没有发现任何问题.
 
 ## 使用方法
@@ -29,8 +29,6 @@ cd Octoprint-i18n-zh_Hans_CN && cp -r Octoprint-i18n-zh_Hans_CN/zh_Hans_CN $HOME
 - 下载 Octoprint_i18n_zh_Hans_CN.zip 文件.
 - 在设置`settings` -> `appearance` 中 **Language Packs** 点击**Manager**按钮，将 **Octoprint_i18n_zh_Hans_CN.zip**文件上传后，点击保存，刷新页面后即可生效。
 
-
-## 第二版语言包
 
 
 ## 最后
